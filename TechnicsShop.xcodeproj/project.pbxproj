@@ -13,6 +13,15 @@
 		DA7F235428CF43D800CAC439 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA7F235228CF43D800CAC439 /* Main.storyboard */; };
 		DA7F235628CF43DA00CAC439 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA7F235528CF43DA00CAC439 /* Assets.xcassets */; };
 		DA7F235928CF43DA00CAC439 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA7F235728CF43DA00CAC439 /* LaunchScreen.storyboard */; };
+		DA7F236128CF4FB100CAC439 /* CatalogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7F236028CF4FB100CAC439 /* CatalogViewController.swift */; };
+		DA7F236328CF580900CAC439 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7F236228CF580900CAC439 /* NetworkService.swift */; };
+		DA7F236528CF589300CAC439 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7F236428CF589300CAC439 /* Models.swift */; };
+		DA7F236928CF5F4700CAC439 /* CatalogCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7F236828CF5F4600CAC439 /* CatalogCustomCell.swift */; };
+		DA7F236C28CF710400CAC439 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = DA7F236B28CF710400CAC439 /* SDWebImage */; };
+		DA7F236E28CF710400CAC439 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = DA7F236D28CF710400CAC439 /* SDWebImageMapKit */; };
+		DA7F237028D0CB4500CAC439 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7F236F28D0CB4400CAC439 /* PaymentViewController.swift */; };
+		DA7F237228D0CB7300CAC439 /* PaymentCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7F237128D0CB7300CAC439 /* PaymentCustomCell.swift */; };
+		DAD0619928D0E84B008968CB /* FinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD0619828D0E84B008968CB /* FinalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,13 @@
 		DA7F235528CF43DA00CAC439 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA7F235828CF43DA00CAC439 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA7F235A28CF43DA00CAC439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA7F236028CF4FB100CAC439 /* CatalogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogViewController.swift; sourceTree = "<group>"; };
+		DA7F236228CF580900CAC439 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		DA7F236428CF589300CAC439 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		DA7F236828CF5F4600CAC439 /* CatalogCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogCustomCell.swift; sourceTree = "<group>"; };
+		DA7F236F28D0CB4400CAC439 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		DA7F237128D0CB7300CAC439 /* PaymentCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentCustomCell.swift; sourceTree = "<group>"; };
+		DAD0619828D0E84B008968CB /* FinalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +47,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA7F236E28CF710400CAC439 /* SDWebImageMapKit in Frameworks */,
+				DA7F236C28CF710400CAC439 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +77,13 @@
 				DA7F234C28CF43D800CAC439 /* AppDelegate.swift */,
 				DA7F234E28CF43D800CAC439 /* SceneDelegate.swift */,
 				DA7F235028CF43D800CAC439 /* ViewController.swift */,
+				DA7F236028CF4FB100CAC439 /* CatalogViewController.swift */,
+				DA7F236828CF5F4600CAC439 /* CatalogCustomCell.swift */,
+				DA7F236F28D0CB4400CAC439 /* PaymentViewController.swift */,
+				DA7F237128D0CB7300CAC439 /* PaymentCustomCell.swift */,
+				DAD0619828D0E84B008968CB /* FinalViewController.swift */,
+				DA7F236228CF580900CAC439 /* NetworkService.swift */,
+				DA7F236428CF589300CAC439 /* Models.swift */,
 				DA7F235228CF43D800CAC439 /* Main.storyboard */,
 				DA7F235528CF43DA00CAC439 /* Assets.xcassets */,
 				DA7F235728CF43DA00CAC439 /* LaunchScreen.storyboard */,
@@ -83,6 +108,10 @@
 			dependencies = (
 			);
 			name = TechnicsShop;
+			packageProductDependencies = (
+				DA7F236B28CF710400CAC439 /* SDWebImage */,
+				DA7F236D28CF710400CAC439 /* SDWebImageMapKit */,
+			);
 			productName = TechnicsShop;
 			productReference = DA7F234928CF43D800CAC439 /* TechnicsShop.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +140,9 @@
 				Base,
 			);
 			mainGroup = DA7F234028CF43D800CAC439;
+			packageReferences = (
+				DA7F236A28CF710400CAC439 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = DA7F234A28CF43D800CAC439 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +170,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA7F236328CF580900CAC439 /* NetworkService.swift in Sources */,
+				DAD0619928D0E84B008968CB /* FinalViewController.swift in Sources */,
+				DA7F236128CF4FB100CAC439 /* CatalogViewController.swift in Sources */,
 				DA7F235128CF43D800CAC439 /* ViewController.swift in Sources */,
+				DA7F237028D0CB4500CAC439 /* PaymentViewController.swift in Sources */,
+				DA7F236528CF589300CAC439 /* Models.swift in Sources */,
 				DA7F234D28CF43D800CAC439 /* AppDelegate.swift in Sources */,
 				DA7F234F28CF43D800CAC439 /* SceneDelegate.swift in Sources */,
+				DA7F236928CF5F4700CAC439 /* CatalogCustomCell.swift in Sources */,
+				DA7F237228D0CB7300CAC439 /* PaymentCustomCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +332,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -321,6 +361,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +399,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DA7F236A28CF710400CAC439 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DA7F236B28CF710400CAC439 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DA7F236A28CF710400CAC439 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		DA7F236D28CF710400CAC439 /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DA7F236A28CF710400CAC439 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DA7F234128CF43D800CAC439 /* Project object */;
 }
