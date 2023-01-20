@@ -69,7 +69,7 @@ class PaymentViewController: UIViewController, UITableViewDelegate, UITableViewD
                 self.zeroAction?()
                 self.navigationController?.popViewController(animated: true)
             }
-            var balanceIsEnough = CatalogViewController.balance >= Double(self.totalLabel.text!)!
+            let balanceIsEnough = CatalogViewController.balance >= Double(self.totalLabel.text!)!
             
             finalVC.isSuccess = balanceIsEnough
             if balanceIsEnough {

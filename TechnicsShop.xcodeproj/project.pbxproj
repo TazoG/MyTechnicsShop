@@ -74,6 +74,14 @@
 		DA7F234B28CF43D800CAC439 /* TechnicsShop */ = {
 			isa = PBXGroup;
 			children = (
+				DAA60F0C297ADBBD0082D44B /* docs */,
+			);
+			path = TechnicsShop;
+			sourceTree = "<group>";
+		};
+		DAA60F0C297ADBBD0082D44B /* docs */ = {
+			isa = PBXGroup;
+			children = (
 				DA7F234C28CF43D800CAC439 /* AppDelegate.swift */,
 				DA7F234E28CF43D800CAC439 /* SceneDelegate.swift */,
 				DA7F235028CF43D800CAC439 /* ViewController.swift */,
@@ -89,7 +97,7 @@
 				DA7F235728CF43DA00CAC439 /* LaunchScreen.storyboard */,
 				DA7F235A28CF43DA00CAC439 /* Info.plist */,
 			);
-			path = TechnicsShop;
+			path = docs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
